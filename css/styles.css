@@ -2,14 +2,19 @@
 /* вторичный цвет текста  #757575 */
 /* Акцент #2196f3 */
 /* Белый цвет, который часто используется в макете #ffffff */
-/* Фон добавлен временно для читабельности h1 и футера */
 /* Фон кнопки-фильтра "Портфолио" #f5f4fa */
+/* Основной фон #FFFFFF */
+/* Вторичный фон #F5F4FA */
+/* Фон футера и осн секции #2F303A */
 
 :root {
   --primary-text-color: #212121;
   --accent-text-color: #2196f3;
   --secondary-text-color: #757575;
   --another-text-color: #ffffff;
+  --primery-bgc: #ffffff;
+  --footer-m-section-bgc: #2f303a;
+  --secondary-bgc: #f5f4fa;
 }
 
 body {
@@ -19,7 +24,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: #e5e5e5;
+  background-color: var(--primery-bgc);
 }
 
 /* Стилизация по тегам */
@@ -73,6 +78,10 @@ ul {
   color: var(--primary-text-color);
 }
 /* Главная секция */
+.m-section {
+  background-color: var(--footer-m-section-bgc);
+}
+
 .m-section-title {
   font-weight: 900;
   font-size: 44px;
@@ -101,6 +110,9 @@ ul {
   color: var(--secondary-text-color);
 }
 /* Услуги и Команда */
+.team {
+  background-color: var(--secondary-bgc);
+}
 .work-title,
 .team-title {
   font-size: 36px;
@@ -117,6 +129,9 @@ ul {
   line-height: 1.19;
 }
 /* Подвал*/
+.footer {
+  background-color: var(--footer-m-section-bgc);
+}
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
@@ -131,7 +146,7 @@ ul {
   text-decoration: none;
 }
 .portfolio-filter {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-bgc);
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
