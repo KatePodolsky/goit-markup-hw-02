@@ -45,9 +45,23 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-text-color);
+}
+.nav-link:active {
+  color: var(--primary-text-color);
+}
 .contact {
   color: var(--secondary-text-color);
   font-style: normal;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-text-color);
+}
+.contact:active {
+  color: var(--primary-text-color);
 }
 /* Главная секция */
 .m-section-title {
@@ -114,6 +128,14 @@ li {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+}
+.portfolio-filter:hover,
+.portfolio-filter:focus {
+  background-color: var(--accent-text-color);
+  color: var(--another-text-color);
+}
+.portfolio-filter:active {
+  color: var(--primary-text-color);
 }
 .portfolio-project {
   font-size: 18px;
