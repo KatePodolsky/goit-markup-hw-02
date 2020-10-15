@@ -20,9 +20,10 @@ body {
 button {
   font-family: inherit;
 }
-li {
-  list-style-type: none;
+ul{
+  list-style: none;
 }
+
 /* Навигация и контакты */
 
 .logo {
@@ -40,11 +41,13 @@ li {
 
 .nav-link,
 .contact {
+  color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-text-color);
@@ -123,7 +126,7 @@ li {
 }
 .portfolio-filter {
   background-color: #f5f4fa;
-  color: var(--primary-text-color);
+  color: var(--primary-text-color)
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -138,6 +141,7 @@ li {
   color: var(--primary-text-color);
 }
 .portfolio-project {
+  color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
