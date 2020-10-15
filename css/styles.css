@@ -14,13 +14,13 @@ body {
   letter-spacing: 0.03em;
   background-color: #e5e5e5;
 }
-/* Фон #e5e5e5 добавлен временно для читабельности h1 и футера */
+/* Фон добавлен временно для читабельности h1 и футера */
 
 /* Стилизация по тегам */
 button {
   font-family: inherit;
 }
-ul{
+ul {
   list-style: none;
 }
 
@@ -126,7 +126,7 @@ ul{
 }
 .portfolio-filter {
   background-color: #f5f4fa;
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
