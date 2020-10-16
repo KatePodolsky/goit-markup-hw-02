@@ -24,7 +24,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: var(--primery-bgc);
 }
 
 /* Стилизация по тегам */
@@ -36,6 +35,10 @@ ul {
 }
 
 /* Навигация и контакты */
+
+.header {
+  background-color: var(--primery-bgc);
+}
 
 .logo {
   color: #000000;
